@@ -133,12 +133,12 @@ body {
 	font: 1em/1.5em 'PT Serif', serif;
     margin: 0;
     
-    /*background-image: -webkit-linear-gradient(#eee .05em, transparent .05em);
+    background-image: -webkit-linear-gradient(#eee .05em, transparent .05em);
 	background-image: -moz-linear-gradient(#eee 1px, transparent 1px);
 	background-image: -ms-linear-gradient(#eee 1px, transparent 1px);
 	background-image: -o-linear-gradient(#eee 1px, transparent 1px);
 	background-image: linear-gradient(#eee 1px, transparent 1px);
-	background-size: 100% 24px;*/
+	background-size: 100% 24px;
 }
 
 /* ==========================================================================
@@ -564,11 +564,70 @@ table {
 /* ==========================================================================
    Classes
    ========================================================================== */
-  
+
 .page {
-	width: 640px;
 	margin: 0 auto;
-	padding-top: 4.5em;
+	width: 940px;
+}
+
+.page-header {
+	
+}
+
+.site-title {
+	
+}
+
+.site-slogan {
+	
+}
+
+.main {
+	display: inline-block;
+	vertical-align: top;
+	width: 640px;
+}
+
+.entry {
+	
+}
+
+.entry-header {
+	
+}
+
+.entry-title {
+	
+}
+
+.entry-title-link {
+	
+}
+
+.entry-date {
+	
+}
+
+.entry-tags {
+	
+}
+
+.entry-tags-list {
+	
+}
+
+.rightColumn {
+	display: inline-block;
+	vertical-align: top;
+	width: 295px;
+}
+
+.rightColumn-block {
+	
+}
+
+.rightColumn-block-title {
+	
 }
 
 .social a {
