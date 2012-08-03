@@ -1,4 +1,45 @@
 /* ==========================================================================
+   Icon definitions definitions
+   ========================================================================== */
+  
+
+@font-face {
+	font-family: 'social';
+	src: url("font/social.eot");
+	src: url("font/social.eot?#iefix") format('embedded-opentype'), url("font/social.woff") format('woff'), url("font/social.ttf") format('truetype'), url("font/social.svg#social") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'social';
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	text-align: center;
+	/* Uncomment for 3D effect */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+	/* fix buttons height */
+	/* you can be more comfortable with increased icons size */
+	/* font-zize: 120%; */
+}
+
+.icon-github:before {
+	content: '\61';
+}/* 'a' */
+
+.icon-twitter:before {
+	content: '\62';
+}/* 'b' */
+
+.icon-linkedin:before {
+	content: '\63';
+} /* 'c' */
+
+
+/* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
 
@@ -92,7 +133,7 @@ body {
 	font: 1em/1.5em 'PT Serif', serif;
     margin: 0;
     
-   /* background-image: -webkit-linear-gradient(#eee .05em, transparent .05em);
+    /*background-image: -webkit-linear-gradient(#eee .05em, transparent .05em);
 	background-image: -moz-linear-gradient(#eee 1px, transparent 1px);
 	background-image: -ms-linear-gradient(#eee 1px, transparent 1px);
 	background-image: -o-linear-gradient(#eee 1px, transparent 1px);
@@ -125,6 +166,7 @@ a:focus {
 a:active,
 a:hover {
     outline: 0;
+    text-shadow: 1px 1px 0px #FFFFFF;
 }
 
 /* ==========================================================================
@@ -527,4 +569,9 @@ table {
 	width: 640px;
 	margin: 0 auto;
 	padding-top: 4.5em;
+}
+
+.social a {
+	font-size: 2em;
+    line-height: 1.5em; 
 }
