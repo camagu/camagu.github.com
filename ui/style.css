@@ -130,15 +130,15 @@ body {
 body {
 	background-color: #D6DCD8;
 	color: #04292F;
-	font: 1em/1.5em 'PT Serif', serif;
+	font: 1em/1.3125em 'PT Serif', serif;
     margin: 0;
     
-    background-image: -webkit-linear-gradient(#eee .05em, transparent .05em);
+    /*background-image: -webkit-linear-gradient(#eee .05em, transparent .05em);
 	background-image: -moz-linear-gradient(#eee 1px, transparent 1px);
 	background-image: -ms-linear-gradient(#eee 1px, transparent 1px);
 	background-image: -o-linear-gradient(#eee 1px, transparent 1px);
 	background-image: linear-gradient(#eee 1px, transparent 1px);
-	background-size: 100% 24px;
+	background-size: 100% 21px;*/
 }
 
 /* ==========================================================================
@@ -184,14 +184,14 @@ h1, h2, h3, h4, h5, h6
 }
 
 h1 {
-    font-size: 2em;
-    line-height: 1.5em;
-    margin: 0 0 0.75em;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    margin: 0 0 1.75em;
 }
 
 h2 {
     font-size: 1.5em;
-    margin: 0.83em 0;
+    margin: 0 0 1em;
 }
 
 h3 {
@@ -258,7 +258,7 @@ mark {
 
 p,
 pre {
-    margin: 0 0 1.5em;
+    margin: 0 0 1.3125em;
 }
 
 /*
@@ -571,19 +571,27 @@ table {
 }
 
 .page-header {
-	
+	padding: 2.625em 0;
 }
 
 .site-title {
-	
+	font-size: 2.625em;
+    line-height: 1em;
+	margin-bottom: 0;
 }
 
 .site-slogan {
-	
+	font-size: 1.5em;
+    line-height: 1.75em;
+    margin-bottom: 0;
 }
 
 .main {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	display: inline-block;
+	padding-right: 2.625em;
 	vertical-align: top;
 	width: 640px;
 }
@@ -597,7 +605,7 @@ table {
 }
 
 .entry-title {
-	
+	margin-bottom: 0;
 }
 
 .entry-title-link {
@@ -609,7 +617,7 @@ table {
 }
 
 .entry-tags {
-	
+	margin-bottom: 1.3125em;
 }
 
 .entry-tags-list {
@@ -618,6 +626,8 @@ table {
 
 .rightColumn {
 	display: inline-block;
+	font-size: 0.875em;
+	line-height: 1.5em;
 	vertical-align: top;
 	width: 295px;
 }
@@ -627,7 +637,8 @@ table {
 }
 
 .rightColumn-block-title {
-	
+	line-height: 1em;
+	margin-bottom: 0;
 }
 
 .social a {
